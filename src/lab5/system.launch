@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="robotika" type="station.py" name="station" output="screen" />
+    <node pkg="robotika" type="sensor.py" name="sensor" />
+    <node pkg="robotika" type="alert_server.py" name="alert_server" />
+</launch>
